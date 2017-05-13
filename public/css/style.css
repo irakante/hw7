@@ -27,5 +27,8 @@
 	padding: 15px;
 }
 
-.film-card{border:1px solid #ccc;}
+.film-card{border:1px solid #ccc;
+max-width: 300px;
+margin-bottom: 50px;
+}
 

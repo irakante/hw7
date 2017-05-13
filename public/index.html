@@ -9,24 +9,26 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.2.0/lodash.js"></script>
 	
 	<script type="text/template" id="grid-template">
-    <% for(var i = 0; i < list.length; i++) { %>
-<div class="col-md-6" >   
-  
-    <div class="film-card">
-       <img  src="  <%=list[i].Poster%>">
-       <div class="content">
-         <div class="title"> <%=list[i].Title%></div>
-         <p>год: <%=list[i].Year%></p>
-       </div>
-     </div> 
-      
-    
-    <div class="actions">
-      <button>  подробнее</button>
-    </div>
-	
-</div>
-  <% } %>
+		<div class="container">
+			<% for(var i = 0; i < list.length; i++) { %>
+				<div class="col-md-6" >   
+				
+					<div class="film-card">
+					<img  src="  <%=list[i].Poster%>">
+					<div class="content">
+						<div class="title"> <%=list[i].Title%></div>
+						<p>год: <%=list[i].Year%></p>
+					</div>
+					</div> 
+					
+					
+					<div class="actions">
+					<button>  подробнее</button>
+					</div>
+					
+				</div>
+			<% } %>
+	</div>
   </script>
 
 
