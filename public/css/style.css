@@ -29,6 +29,6 @@
 
 .film-card{border:1px solid #ccc;
 max-width: 300px;
-margin-bottom: 50px;
+margin: 20px auto;
 }
-
+.content{height: 40px}
